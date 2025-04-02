@@ -6,6 +6,8 @@ export const customTheme = {
     colorPrimary: '#3779BC',
     colorBgContainer: '#ffffff',
     colorBgLayout: '#f5f7fa',
+    colorText: '#3D3D3D',
+    fontFamily: 'Poppins',
   },
   components: {
     Button: {
