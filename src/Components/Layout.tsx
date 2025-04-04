@@ -111,7 +111,7 @@ const ShellLayout: React.FC = () => {
           }}
         >
           <Content style={{ flex: 1, overflow: "auto" }}>
-            <div style={{ maxWidth: 1200, margin: "0 auto", padding: "24px" }}>
+            <div style={{ margin: "0 auto", padding: "24px" }}>
               {routes[selectedKey as keyof typeof routes] && (
                 <iframe
                   src={routes[selectedKey as keyof typeof routes]}
